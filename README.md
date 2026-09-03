@@ -6,7 +6,7 @@ Cloned to `~/.claude/skills`, where Claude Code picks them up automatically.
 
 | Skill | What it does |
 | --- | --- |
-| [adversarial-review](adversarial-review/SKILL.md) | Spawns a read-only agent to break work you just produced, then triages its findings and applies the fixes yourself. |
+| [adversarial-review](adversarial-review/SKILL.md) | Hands finished work to a read-only agent that tries to break it — against a working reference where one exists — then triages the findings and applies the fixes itself. |
 
 ## Adding a skill
 
