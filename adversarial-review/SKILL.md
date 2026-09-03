@@ -1,6 +1,6 @@
 ---
 name: adversarial-review
-description: Hand finished work to a read-only agent whose only job is to break it, then triage its findings and apply the fixes yourself. Trigger on "try to break it", "check what you built", "run a second pair of eyes", "review it against the working one" — and ALSO unprompted when you have just finished something whose failure mode is silent: a template, a generated payload, a config, a query, a migration, anything that renders or runs where you cannot watch it. Especially when a working equivalent already exists to compare against. Do NOT trigger for a change you can fully verify by running it, and do not use it as a substitute for the project's own tests and gates.
+description: Hand finished work to a read-only agent whose only job is to break it, then triage its findings and apply the fixes yourself. Trigger on "try to break it", "check what you built", "run a second pair of eyes", "review it against the working one" — and ALSO unprompted when you have just finished something whose failure mode is silent — a template, a generated payload, a config, a query, a migration, anything that renders or runs where you cannot watch it. Especially when a working equivalent already exists to compare against. Do NOT trigger for a change you can fully verify by running it, and do not use it as a substitute for the project's own tests and gates.
 ---
 
 # Adversarial review
